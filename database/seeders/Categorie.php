@@ -116,8 +116,8 @@ class Categorie extends Seeder
         //--------------------------------------------------------------------------------------------\\
         DB::table('diag_produit_types')->delete();
         DB::table('diag_produit_types')->insert([
-            ['id'=>1,'name' => '"Divers - DD" ou "comptage DD"'],
-            ['id'=>2,'name' => '"Divers - DND" ou \'comptage"'],
+            ['id'=>1,'name' => '"""Divers - DD"" ou ""comptage DD"""'],
+            ['id'=>2,'name' => '"""Divers - DND"" ou \'comptage"""'],
             ['id'=>3,'name' => 'Autre - Amiante'],
             ['id'=>4,'name' => 'Bardage'],
             ['id'=>5,'name' => 'Bardage - Amiante'],
@@ -151,7 +151,7 @@ class Categorie extends Seeder
             ['id'=>33,'name' => 'Poteaux - Poutre'],
             ['id'=>34,'name' => 'Poutre - IPN - Plomb'],
             ['id'=>35,'name' => 'Revêtement de sol'],
-            ['id'=>36,'name' => 'Revêtement de sol - Amiante'],
+            ['id'=>36,'name' => 'Revêtement de sol - Amiante '],
             ['id'=>37,'name' => 'Sanitaire -Equipements'],
             ['id'=>38,'name' => 'Voirie - Amiante'],
             ['id'=>39,'name' => 'Vrac - Amiante'],
@@ -159,9 +159,9 @@ class Categorie extends Seeder
             ['id'=>41,'name' => 'TEST'],
             ['id'=>42,'name' => 'Autre'],
             ['id'=>43,'name' => 'Dépôt - Amiante'],
-            ['id'=>44,'name' => 'Cloisonnement'],
+            ['id'=>44,'name' => 'Cloisonnement '],
             ['id'=>45,'name' => 'Marche - Plomb'],
-            ['id'=>46,'name' => 'Toiture'],
+            ['id'=>46,'name' => 'Toiture '],
             ['id'=>47,'name' => 'Amiante'],
             ['id'=>48,'name' => 'Revêtement mur'],
             ['id'=>49,'name' => 'Sol'],
@@ -171,8 +171,8 @@ class Categorie extends Seeder
             ['id'=>53,'name' => 'Convoyeur 1050 T/h'],
             ['id'=>54,'name' => 'Convoyeur 350 - 500 T/h'],
             ['id'=>55,'name' => 'Convoyeur 1050 T/h 2'],
-            ['id'=>56,'name' => 'Eclairage'],
-            ['id'=>57,'name' => 'Ouvrant'],
+            ['id'=>56,'name' => 'Eclairage '],
+            ['id'=>57,'name' => 'Ouvrant '],
             ['id'=>58,'name' => 'Panneaux']
         ]);
     }
